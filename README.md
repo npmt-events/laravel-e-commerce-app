@@ -1,1 +1,1 @@
-<h1 style="color:firebrick;text-align: center">LARAVEL E-COMMERCE APP</h1>
+<p align="center" color="red">LARAVEL E-COMMERCE APP</p>
