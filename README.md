@@ -1,2 +1,2 @@
-<p align="center" color="red">LARAVEL E-COMMERCE APP</p>
+<h1 align="center" color="red">LARAVEL E-COMMERCE APP</h1>
 
