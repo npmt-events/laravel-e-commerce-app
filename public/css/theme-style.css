@@ -1,7 +1,38 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  box-shadow: 0 0 1px #1119;
+  border-radius: 0px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #1119;
+  border-radius: 0px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1117;
+}
+
 .sale-label {
   position: absolute;
   top: 0;
   left: 0;
-  transform: rotate(-40deg);
+  transform: translate(-15px, -3px) rotate(-30deg);
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 90% 50%, 100% 100%, 0% 100%, 10% 50%);
+          clip-path: polygon(0% 0%, 100% 0%, 90% 50%, 100% 100%, 0% 100%, 10% 50%);
+  font-size: 13px;
+  width: 60px !important;
+  color: #1118;
 }
 
