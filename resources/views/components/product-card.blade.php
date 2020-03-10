@@ -1,4 +1,4 @@
-<div class="card px-0 col-lg-3 mx-3 my-2">
+<div class="card px-0 col-lg-3 col-md-5 mx-3 my-2">
 	<div class="card-body text-center">
 		<img src="{{ url('/images')."/".$product->thumb }}" alt="{{ $product->name }}" class="img-fluid">
 		<p class="lead">
