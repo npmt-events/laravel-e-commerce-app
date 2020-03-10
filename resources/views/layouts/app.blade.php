@@ -8,13 +8,11 @@
 </head>
 <body>
 	<div class="row mx-auto">
-		<p class="col-12 text-center display-4">
-			E-Store
-		</p>
-		<div class="col-lg-2">
-		@include('includes.navbar')	
+		<div class="col-lg-2" class="px-lg-2 px-0 pb-2 bg-white">
+		@include('includes.sidebar')	
 		</div>
-		<div class="col-lg">	
+		<div class="col-lg py-2 bg-white">
+		@include('includes.navbar')		
 		@yield('content')
 		</div>
 	</div>
